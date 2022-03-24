@@ -32,8 +32,7 @@ When writing the calculation expression to the device file /dev/var2, save the c
 3. execute insmod var2.ko
 4. View device number: 
 	cat /proc/devices | grep var2  ===> 511 var2
-5. You create a device in a kernel module
-    var2_device = device_create(cls, NULL, devno, NULL, "var2");
+5. # Лабораторная работа 1
 
 ## Инструкция пользователя
 
@@ -71,7 +70,7 @@ int main(int argc, char *argv[])
     fclose(fp);
     return 0;
 }
-    var2_device = device_create(cls, NULL, devno, NULL, "var2");
+    
 ## Инструкция пользователя
 
 1. write test program
