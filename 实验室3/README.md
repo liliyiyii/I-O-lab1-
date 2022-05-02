@@ -27,4 +27,5 @@ $ make
 ## Примеры использования
 Проверим адрес:
 ```bash
+![image](https://user-images.githubusercontent.com/100764302/166196386-cff5d099-b2e5-40ef-93e1-32f4ff22b699.png)
 
